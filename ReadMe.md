@@ -1,1 +1,1 @@
-# StreamVibe
+# StreamVibe Documentation
