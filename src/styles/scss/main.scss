@@ -4,8 +4,11 @@
 @import "./abstracts/colors";
 @import "./abstracts/variables";
 
-@import "./pages/pagesOne";
-@import "./pages/pagesTwo";
+@import "./pages/intro";
+@import "./pages/index";
+@import "./pages/movies";
+@import "./pages/subscriptions";
+@import "./pages/support";
 
-@import "./pages/pagesOne";
-@import "./pages/pagesTwo";
+@import "./components/promotions";
+@import "./components/other";
