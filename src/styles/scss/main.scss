@@ -4,11 +4,21 @@
 @import "./abstracts/colors";
 @import "./abstracts/variables";
 
-@import "./pages/intro";
-@import "./pages/index";
-@import "./pages/movies";
-@import "./pages/subscriptions";
-@import "./pages/support";
-
+// index.html
+@import "./components/header";
+@import "./components/intro";
+@import "./components/categories";
+@import "./components/crossplatfotm";
+@import "./components/faq";
+@import "./components/pricing";
 @import "./components/promotions";
-@import "./components/other";
+@import "./components/footer";
+
+// movies.html
+@import "./components/publishing";
+
+// subscriptions.html
+@import "./components/subscriptions";
+
+// support.html
+// @import "./example";

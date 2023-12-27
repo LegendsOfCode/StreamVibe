@@ -1,0 +1,362 @@
+/*=======================================
+              Header - Start
+=======================================*/
+.header {
+    background: url("../../design/img/movie/primaryBg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: $clr_primary;
+    background-size: cover;
+    width: 100%;
+    border-radius: 1.2rem;
+}
+
+/*=======================================
+              Header - End
+=======================================*/
+
+/*=======================================
+                Section Nav - Start
+=======================================*/
+.section_nav {
+    &__navbar {
+        button {
+            border: none;
+            outline: none;
+            box-shadow: none !important;
+            color: $clr_white;
+            border-radius: 6px;
+            border: 3px solid $clr_secondary-15;
+            background: $clr_secondary-10;
+
+            i {
+                background: none;
+                box-shadow: none !important;
+                font-size: 2.2rem;
+            }
+        }
+
+        &-menu {
+            border-radius: 12px;
+            border: 0.3rem solid $clr_secondary-12;
+            background: $clr_secondary-06;
+            padding: 0.8rem 0.4rem;
+
+            ul {
+                li {
+                    margin: 0 0.4rem;
+
+                    a {
+                        border-radius: 8px;
+                        border: 1px solid $clr_secondary-06 !important;
+                        padding: 1.2rem 2rem !important;
+
+                        color: $clr_tertiary-75 !important;
+                        font-family: $font_family-manrope;
+                        font-size: 1.4rem;
+                        font-style: $font_style-normal;
+                        font-weight: $font_weight-regular;
+                    }
+
+                    &:hover {
+                        a {
+                            color: $clr_white !important;
+                            border: 1px solid $clr_secondary-10 !important;
+                            background: $clr_secondary-10;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-brand {
+            img {
+                max-width: 16rem;
+                max-height: 16rem;
+                width: 100%;
+                height: 100%;
+            }
+
+            i {
+                font-size: 2.4rem !important;
+                color: $clr_white !important;
+            }
+        }
+
+        &-brand:last-child {
+            text-align: end;
+        }
+    }
+}
+/*=======================================
+            Responsive Design Start
+=======================================*/
+@media only screen and (max-width: 992px) {
+    .section_nav {
+        &__navbar {
+            &-menu {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.8rem;
+                        }
+
+                        &:hover {
+                            a {
+                                color: $clr_white !important;
+                                border: 1px solid $clr_secondary-10 !important;
+                                background: $clr_secondary-10;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-brand {
+                img {
+                    max-width: 20rem;
+                    max-height: 20rem;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                i {
+                    font-size: 30px !important;
+                }
+            }
+
+            &-brand:last-child {
+                display: none !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    .section_nav {
+        &__navbar {
+            &-menu {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.8rem;
+                        }
+
+                        &:hover {
+                            a {
+                                color: $clr_white !important;
+                                border: 1px solid $clr_secondary-10 !important;
+                                background: $clr_secondary-10;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-brand {
+                img {
+                    max-width: 12rem;
+                    max-height: 12rem;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                i {
+                    font-size: 30px !important;
+                }
+            }
+
+            &-brand:last-child {
+                display: none !important;
+            }
+        }
+    }
+}
+/*=======================================
+                Section Nav - End
+=======================================*/
+
+/*=======================================
+                Section Header - Start
+=======================================*/
+.section_header {
+    &-card {
+        img {
+            max-width: 300px;
+            min-width: 200px;
+            max-height: 300px;
+            min-height: 200px;
+            width: 100%;
+            height: 100%;
+
+            margin: 10rem;
+        }
+    }
+}
+/*=======================================
+            Responsive Design Start
+=======================================*/
+@media only screen and (max-width: 992px) {
+    .section_header {
+        &-card {
+            img {
+                max-width: 300px;
+                min-width: 200px;
+                max-height: 300px;
+                min-height: 200px;
+                width: 100%;
+                height: 100%;
+
+                margin: 8rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .section_header {
+        &-card {
+            padding: 6rem 6rem;
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    .section_header {
+        margin: 0 1.6rem;
+
+        &-card {
+            text-align: center;
+            padding: 6rem 6rem;
+            img {
+                max-width: 300px;
+                min-width: 200px;
+                max-height: 300px;
+                min-height: 200px;
+                width: 100%;
+                height: 100%;
+
+                margin: 4rem;
+            }
+        }
+    }
+}
+
+/*=======================================
+                Section Header - End
+=======================================*/
+
+/*=======================================
+                Section Intro - Start
+=======================================*/
+.section_intro {
+    &-header {
+        margin-bottom: 4rem;
+
+        &--content {
+            text-align: center;
+            margin-bottom: 4rem;
+
+            h1 {
+                color: $clr_white;
+                font-family: $font_family-manrope;
+                font-size: 3.8rem;
+                font-style: $font_style-normal;
+                font-weight: $font_weight-bold !important;
+                line-height: 2.7rem;
+                margin: 0 0 1.4rem 0;
+            }
+            p {
+                color: $clr_tertiary-60;
+                font-family: $font_family-manrope;
+                font-size: 1.8rem;
+                font-style: $font_style-normal;
+                font-weight: $font_weight-semibold;
+            }
+        }
+
+        &--btn {
+            a {
+                border-radius: 0.8rem;
+                background: $clr_primary-45;
+                padding: 1.3rem 1.8rem;
+
+                color: $clr_white;
+                font-family: $font_family-manrope;
+                font-size: 1.8rem;
+                font-style: $font_style-normal;
+                font-weight: $font_weight-semibold;
+
+                i {
+                    font-size: 30px !important;
+                }
+            }
+        }
+    }
+}
+
+/*=======================================
+            Responsive Design Start
+=======================================*/
+@media only screen and (max-width: 992px) {
+    .section_intro {
+        margin: 0 1.6rem;
+        &-header {
+            h1 {
+                font-size: 2.8rem;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+
+            &--btn {
+                a {
+                    border-radius: 0.8rem;
+                    background: $clr_primary-45;
+                    padding: 1.2rem 1.5rem;
+
+                    color: $clr_white;
+                    font-family: $font_family-manrope;
+                    font-size: 1.8rem;
+                    font-style: $font_style-normal;
+                    font-weight: $font_weight-semibold;
+
+                    i {
+                        font-size: 30px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    .section_intro {
+        margin: 0 1.6rem;
+        &-header {
+            h1 {
+                font-size: 2.4rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+
+            &--btn {
+                a {
+                    border-radius: 0.8rem;
+                    background: $clr_primary-45;
+                    padding: 1rem 1.5rem;
+
+                    color: $clr_white;
+                    font-family: $font_family-manrope;
+                    font-size: 1.8rem;
+                    font-style: $font_style-normal;
+                    font-weight: $font_weight-semibold;
+
+                    i {
+                        font-size: 30px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+/*=======================================
+            Section Intro - End
+=======================================*/

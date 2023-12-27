@@ -19,6 +19,22 @@ $font_size-root: 1.6rem;
 // *Font Sizes for Headings, Paragraphs, Links, Lists, etc.
 // *Line Heights for Headings, Paragraphs, Links, Lists, etc.
 
+// Fundamental style
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background: $clr_secondary-08;
+}
+
+html {
+    font-size: $font_size-html;
+}
+
 /*=======================================
         Variables of Font - End
 =======================================*/

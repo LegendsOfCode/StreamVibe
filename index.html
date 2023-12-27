@@ -27,35 +27,950 @@
             rel="stylesheet"
         />
 
+        <!-- BoxIcons -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
         <!-- Main Css File -->
         <link href="./src/styles/css/main.css" rel="stylesheet" />
     </head>
 
     <body>
         <!-- Header Start -->
+        <header class="header">
+            <!-- Nav Start -->
+            <section class="section_nav">
+                <div class="container">
+                    <nav
+                        class="section_nav__navbar navbar navbar-expand-lg d-flex justify-content-between"
+                    >
+                        <a
+                            class="section_nav__navbar-brand col navbar-brand"
+                            href="./index.html"
+                            ><img
+                                src="./src/design/img/movie/brandDesign.png"
+                                alt="Logo"
+                        /></a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <i class="bx bx-menu"></i>
+                        </button>
+                        <div
+                            class="section_nav__navbar-menu col flex-grow-0 collapse navbar-collapse"
+                            id="navbarSupportedContent"
+                        >
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="./index.html"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="./src/pages/movies.html"
+                                        >Movies & Shows</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="./src/pages/support.html"
+                                        >Support</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="./src/pages/subscriptions.html"
+                                        >Subscriptions</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <a
+                            class="section_nav__navbar-brand col navbar-brand"
+                            href="https://imgs.search.brave.com/t7IGj4UpDLhN9xt97m-zTJ5kY64yZYDrEbwu54N_jYo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/a2F5aXByaWh0aW0u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzA4L0phd3Mu/anBn"
+                        >
+                            <i class="bx bx-bell"></i>
+                        </a>
+                    </nav>
+                </div>
+            </section>
+            <!-- Nav End -->
 
-        <!-- Nav Start -->
-        <!-- Nav End -->
+            <!-- Section Header Start -->
+            <section class="section_header">
+                <div class="container-fluid">
+                    <div
+                        class="section_header-card d-flex align-items-center justify-content-center"
+                    >
+                        <img
+                            src="./src/design/img/movie/primaryBgLogo.png"
+                            alt="Logo"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!-- Section Header End -->
 
+            <!-- Intro Start -->
+            <div class="section_intro py-4">
+                <div class="container">
+                    <div class="section_intro-header p-3 pb-md-4 mx-auto">
+                        <div
+                            class="section_intro-header--content d-flex flex-column justify-content-center align-items-center"
+                        >
+                            <h1 class="col-lg-8">
+                                The Best Streaming Experience
+                            </h1>
+                            <p class="col-lg-10">
+                                StreamVibe is the best streaming experience for
+                                watching your favorite movies and shows on
+                                demand, anytime, anywhere. With StreamVibe, you
+                                can enjoy a wide variety of content, including
+                                the latest blockbusters, classic movies, popular
+                                TV shows, and more. You can also create your own
+                                watchlists, so you can easily find the content
+                                you want to watch.
+                            </p>
+                        </div>
+
+                        <div
+                            class="section_intro-header--btn d-flex justify-content-center align-items-center"
+                        >
+                            <a
+                                class="text-decoration-none d-flex justify-content-center align-items-center"
+                                href="https://imgs.search.brave.com/t7IGj4UpDLhN9xt97m-zTJ5kY64yZYDrEbwu54N_jYo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/a2F5aXByaWh0aW0u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzA4L0phd3Mu/anBn"
+                                ><i class="bx bx-play"></i> Start Watching
+                                Now</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Intro End -->
+        </header>
         <!-- Header End -->
 
-        <!-- Intro Start -->
-        <!-- Intro End -->
-
         <!-- Categories Start -->
+        <section class="section_categories py-4 wrapper">
+            <div class="container">
+                <div
+                    class="section_categories-header p-3 pb-md-4 mx-auto d-flex justify-content-between"
+                >
+                    <div class="section_categories-header--content">
+                        <h1 class="col-lg-8 col-md-8">
+                            Explore our wide variety of categories
+                        </h1>
+                        <p class="col-lg-10 col-md-10">
+                            Whether you're looking for a comedy to make you
+                            laugh, a drama to make you think, or a documentary
+                            to learn something new
+                        </p>
+                    </div>
+
+                    <div
+                        class="section_categories-header--cta d-flex justify-content-between align-items-center"
+                    >
+                        <span id="left"><</span>
+                        <span id="right">></span>
+                    </div>
+                </div>
+                <ul class="section_categories-carousel">
+                    <li
+                        class="section_categories-carousel--card d-flex flex-column"
+                    >
+                        <img
+                            src="./src/design/img/movie/movieCategories01.png"
+                            alt=""
+                        />
+                        <div
+                            class="section_categories-carousel--card---cta d-flex justify-content-between align-items-center"
+                        >
+                            <a href="#">Join Now </a>
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </div>
+                    </li>
+                    <li
+                        class="section_categories-carousel--card d-flex flex-column"
+                    >
+                        <img
+                            src="./src/design/img/movie/movieCategories02.png"
+                            alt=""
+                        />
+                        <div
+                            class="section_categories-carousel--card---cta d-flex justify-content-between align-items-center"
+                        >
+                            <a href="#">Join Now </a>
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </div>
+                    </li>
+                    <li
+                        class="section_categories-carousel--card d-flex flex-column"
+                    >
+                        <img
+                            src="./src/design/img/movie/movieCategories03.png"
+                            alt=""
+                        />
+                        <div
+                            class="section_categories-carousel--card---cta d-flex justify-content-between align-items-center"
+                        >
+                            <a href="#">Join Now </a>
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </div>
+                    </li>
+                    <li
+                        class="section_categories-carousel--card d-flex flex-column"
+                    >
+                        <img
+                            src="./src/design/img/movie/movieCategories04.png"
+                            alt=""
+                        />
+                        <div
+                            class="section_categories-carousel--card---cta d-flex justify-content-between align-items-center"
+                        >
+                            <a href="#">Join Now </a>
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </div>
+                    </li>
+                    <li
+                        class="section_categories-carousel--card d-flex flex-column"
+                    >
+                        <img
+                            src="./src/design/img/movie/movieCategories05.png"
+                            alt=""
+                        />
+                        <div
+                            class="section_categories-carousel--card---cta d-flex justify-content-between align-items-center"
+                        >
+                            <a href="#">Join Now </a>
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
         <!-- Categories End -->
 
         <!-- CrossPlatfrom Start -->
+        <section class="section_crossplatform py-4">
+            <div class="container">
+                <div class="section_crossplatform-header p-3 pb-md-4 mx-auto">
+                    <h1>
+                        We Provide you streaming experience across various
+                        devices.
+                    </h1>
+                    <p>
+                        With StreamVibe, you can enjoy your favorite movies and
+                        TV shows anytime, anywhere. Our platform is designed to
+                        be compatible with a wide range of devices, ensuring
+                        that you never miss a moment of entertainment.
+                    </p>
+                </div>
+                <div class="section_crossplatform-content row mb-3">
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div
+                            class="section_crossplatform-content--card pointer card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="py-3 d-flex align-items-center">
+                                <div class="iconBox me-4">
+                                    <i class="bx bx-mobile-alt"></i>
+                                </div>
+                                <h4>Smartphones</h4>
+                            </div>
+                            <p>
+                                StreamVibe is optimized for both Android and iOS
+                                smartphones. Download our app from the Google
+                                Play Store or the Apple App Store
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div
+                            class="section_crossplatform-content--card pointer card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="py-3 d-flex align-items-center">
+                                <div class="iconBox me-4">
+                                    <i class="bx bx-devices"></i>
+                                </div>
+                                <h4>Tablet</h4>
+                            </div>
+                            <p>
+                                StreamVibe is optimized for both Android and iOS
+                                smartphones. Download our app from the Google
+                                Play Store or the Apple App Store
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div
+                            class="section_crossplatform-content--card pointer card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="py-3 d-flex align-items-center">
+                                <div class="iconBox me-4">
+                                    <i class="bx bx-tv"></i>
+                                </div>
+                                <h4>Smart TV</h4>
+                            </div>
+                            <p>
+                                StreamVibe is optimized for both Android and iOS
+                                smartphones. Download our app from the Google
+                                Play Store or the Apple App Store
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div
+                            class="section_crossplatform-content--card pointer card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="py-3 d-flex align-items-center">
+                                <div class="iconBox me-4">
+                                    <i class="bx bx-laptop"></i>
+                                </div>
+                                <h4>Laptops</h4>
+                            </div>
+                            <p>
+                                StreamVibe is optimized for both Android and iOS
+                                smartphones. Download our app from the Google
+                                Play Store or the Apple App Store
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div
+                            class="section_crossplatform-content--card pointer card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="py-3 d-flex align-items-center">
+                                <div class="iconBox me-4">
+                                    <i class="bx bx-movie-play"></i>
+                                </div>
+                                <h4>Gaming Consoles</h4>
+                            </div>
+                            <p>
+                                StreamVibe is optimized for both Android and iOS
+                                smartphones. Download our app from the Google
+                                Play Store or the Apple App Store
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div
+                            class="section_crossplatform-content--card pointer card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="py-3 d-flex align-items-center">
+                                <div class="iconBox me-4">
+                                    <i class="bx bx-cloud-light-rain"></i>
+                                </div>
+                                <h4>Cloud</h4>
+                            </div>
+                            <p>
+                                StreamVibe is optimized for both Android and iOS
+                                smartphones. Download our app from the Google
+                                Play Store or the Apple App Store
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- CrossPlatfrom End -->
 
         <!-- Faq Start -->
+        <section class="section_faq py-4">
+            <div class="container">
+                <div class="section_faq-header p-3 pb-md-4 mx-auto">
+                    <h1>Choose the plan that's right for you</h1>
+                    <p>
+                        Quickly build an effective pricing table for your
+                        potential customers with this Bootstrap example. It’s
+                        built with default Bootstrap components and utilities
+                        with little customization.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-xs-12">
+                        <div
+                            class="section_faq-content accordion"
+                            id="accordionExample"
+                        >
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne"
+                                    >
+                                        <div class="me-4">01</div>
+                                        <h4>What is StreamVibe?</h4>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseOne"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        This is the first item's accordion body.
+                                        StreamVibe is a streaming service that
+                                        allows you to watch movies and shows on
+                                        demand.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo"
+                                    >
+                                        <div class="me-4">02</div>
+                                        <h4>How much does StreamVibe cost?</h4>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing elit. Aperiam quae
+                                        consequuntur culpa corporis deserunt
+                                        eius voluptatem quibusdam animi
+                                        doloremque rem?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree"
+                                    >
+                                        <div class="me-4">03</div>
+                                        <h4>
+                                            What content is available on
+                                            StreamVibe?
+                                        </h4>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseThree"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Repellendus ad at eos,
+                                        iure numquam odio vero dolore
+                                        accusantium illum quaerat?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-xs-12">
+                        <div
+                            class="section_faq-content accordion"
+                            id="accordionExample"
+                        >
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour"
+                                        aria-expanded="true"
+                                        aria-controls="collapseFour"
+                                    >
+                                        <div class="me-4">04</div>
+                                        <h4>How can I watch StreamVibe?</h4>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseFour"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        <strong
+                                            >This is the first item's accordion
+                                            body.</strong
+                                        >
+                                        It is shown by default, until the
+                                        collapse plugin adds the appropriate
+                                        classes that we use to style each
+                                        element. These classes control the
+                                        overall appearance, as well as the
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFive"
+                                    >
+                                        <div class="me-4">05</div>
+                                        <h4>
+                                            How do I sign up for StreamVibe?
+                                        </h4>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseFive"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        <strong
+                                            >This is the second item's accordion
+                                            body.</strong
+                                        >
+                                        It is hidden by default, until the
+                                        collapse plugin adds the appropriate
+                                        classes that we use to style each
+                                        element. These classes control the
+                                        overall appearance, as well as the
+                                        showing and hiding via CSS transition
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix"
+                                        aria-expanded="false"
+                                        aria-controls="collapseSix"
+                                    >
+                                        <div class="me-4">06</div>
+                                        <h4>
+                                            What is the StreamVibe free trial?
+                                        </h4>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseSix"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body">
+                                        <strong
+                                            >This is the third item's accordion
+                                            body.</strong
+                                        >
+                                        It is hidden by default, until the
+                                        collapse plugin adds the appropriate
+                                        classes that we use to style each
+                                        element. These classes control the
+                                        overall appearance, as well as the
+                                        showing and hiding via CSS transitio
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Faq End -->
 
         <!-- Pricing Start -->
+        <section class="section_pricing py-4">
+            <div class="container">
+                <div
+                    class="section_pricing-header pricing-header p-3 pb-md-4 mx-auto"
+                >
+                    <h1>Choose the plan that's right for you</h1>
+                    <p>
+                        Quickly build an effective pricing table for your
+                        potential customers with this Bootstrap example. It’s
+                        built with default Bootstrap components and utilities
+                        with little customization.
+                    </p>
+                </div>
+
+                <div
+                    class="section_pricing-cost row row-cols-1 row-cols-md-3 mb-3"
+                >
+                    <div class="col">
+                        <div
+                            class="section_pricing-cost--card card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="card-header py-3">
+                                <h4>Basic Plan</h4>
+                                <p>
+                                    Enjoy an extensive library of movies and
+                                    shows, featuring a range of content,
+                                    including recently released titles.
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">
+                                    $9.99<small class="text-body-secondary"
+                                        >/month</small
+                                    >
+                                </h1>
+                                <button
+                                    type="button"
+                                    class="btnChildOne btn btn-lg btn-outline-primary"
+                                >
+                                    Start Free Trial
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btnChildTwo btn btn-lg btn-outline-primary"
+                                >
+                                    Choose Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="section_pricing-cost--card card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="card-header py-3">
+                                <h4>Standard Plan</h4>
+                                <p>
+                                    Enjoy an extensive library of movies and
+                                    shows, featuring a range of content,
+                                    including recently released titles.
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">
+                                    $9.99<small class="text-body-secondary"
+                                        >/month</small
+                                    >
+                                </h1>
+                                <button
+                                    type="button"
+                                    class="btnChildOne btn btn-lg btn-outline-primary"
+                                >
+                                    Start Free Trial
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btnChildTwo btn btn-lg btn-outline-primary"
+                                >
+                                    Choose Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="section_pricing-cost--card card mb-4 rounded-3 shadow-sm"
+                        >
+                            <div class="card-header py-3">
+                                <h4>Premium Plan</h4>
+                                <p>
+                                    Enjoy an extensive library of movies and
+                                    shows, featuring a range of content,
+                                    including recently released titles.
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">
+                                    $9.99<small class="text-body-secondary"
+                                        >/month</small
+                                    >
+                                </h1>
+                                <button
+                                    type="button"
+                                    class="btnChildOne btn btn-lg btn-outline-primary"
+                                >
+                                    Start Free Trial
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btnChildTwo btn btn-lg btn-outline-primary"
+                                >
+                                    Choose Plan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Pricing End -->
 
         <!-- Promotion Start -->
+        <section class="section_promotion py-4">
+            <div class="container">
+                <div
+                    class="section_promotion-card d-flex align-items-center justify-content-center"
+                >
+                    <div class="row col-lg-12 justify-content-between">
+                        <div
+                            class="col-lg-8 col-md-8 col-xs-12 d-flex justify-content-center align-items-center"
+                        >
+                            <div class="section_promotion-card--content">
+                                <h1>Start your free trial today!</h1>
+                                <p>
+                                    This is a clear and concise call to action
+                                    that encourages users to sign up for a free
+                                    trial of StreamVibe.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-2 col-md-3 col-xs-12 d-flex justify-content-center align-items-center"
+                        >
+                            <div
+                                class="section_promotion-card--btn d-flex justify-content-center align-items-center"
+                            >
+                                <a class="text-decoration-none" href=""
+                                    >Free Trial</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Promotion End -->
+
+        <!-- Footer Start -->
+        <footer class="section_footer py-4">
+            <div class="container">
+                <div class="section_footer-primary row">
+                    <div
+                        class="section_footer-primary--column col-6 col-md-2 mb-3"
+                    >
+                        <h5>Home</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Categories</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Devices</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Pricing</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >FAQ</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="section_footer-primary--column col-6 col-md-2 mb-3"
+                    >
+                        <h5>Movies</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Genres</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Trending</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >New Release</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Popular</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="section_footer-primary--column col-6 col-md-2 mb-3"
+                    >
+                        <h5>Shows</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Genres</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Trending</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >New Release</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Popular</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="section_footer-primary--column col-6 col-md-2 mb-3"
+                    >
+                        <h5>Support</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Contact Us</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="section_footer-primary--column col-6 col-md-2 mb-3"
+                    >
+                        <h5>Subscribe</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Plans</a
+                                >
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a
+                                    href="#"
+                                    class="nav-link p-0 text-body-secondary"
+                                    >Features</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="section_footer-primary--column col-6 col-md-2 mb-3"
+                    >
+                        <h5>Connect with Us</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2 d-flex">
+                                <a
+                                    href="#"
+                                    class="iconCover nav-link p-0 text-body-secondary me-2"
+                                    ><i class="bx bxl-facebook-circle"></i>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="iconCover nav-link p-0 text-body-secondary me-2"
+                                    ><i class="bx bxl-twitter"></i>
+                                </a>
+                                <a
+                                    href="#"
+                                    class="iconCover nav-link p-0 text-body-secondary me-2"
+                                    ><i class="bx bxl-linkedin-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div
+                    class="section_footer-secondary d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+                >
+                    <p>&copy; 2023 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3">
+                            <a class="link-body-emphasis" href="#">
+                                Term of Use
+                            </a>
+                        </li>
+                        <li class="ms-3">|</li>
+                        <li class="ms-3">
+                            <a class="link-body-emphasis" href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="ms-3">|</li>
+                        <li class="ms-3">
+                            <a class="link-body-emphasis" href="#">
+                                Cookie Policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
 
         <!-- BootStrap's Js CDN | Version of 5.3.2 -->
         <script
@@ -63,5 +978,7 @@
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"
         ></script>
+        <!-- Vanilla Js Carousel -->
+        <script src="./src/js/carousel.js"></script>
     </body>
 </html>

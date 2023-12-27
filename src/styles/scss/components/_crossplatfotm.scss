@@ -1,0 +1,103 @@
+/*=======================================
+            crossplatform - Start
+=======================================*/
+.section_crossplatform {
+    &-header {
+        margin-bottom: 4rem;
+        h1 {
+            color: $clr_white;
+            font-family: $font_family-manrope;
+            font-size: 2.8rem;
+            font-style: $font_style-normal;
+            font-weight: $font_weight-bold !important;
+            line-height: 2.7rem;
+            margin: 0 0 1.4rem 0;
+        }
+        p {
+            color: $clr_tertiary-60;
+            font-family: $font_family-manrope;
+            font-size: 1.6rem;
+            font-style: $font_style-normal;
+            font-weight: $font_weight-semibold;
+        }
+    }
+
+    &-content {
+
+        &--card {
+            cursor: pointer;
+            padding: 3rem;
+            border-radius: 12px;
+            border: 1px solid var(--Black-15, #262626);
+            background: linear-gradient(
+                    222deg,
+                    rgba(229, 0, 0, 0.5) -208.03%,
+                    rgba(229, 0, 0, 0) 41.32%
+                ),
+                #0f0f0f;
+
+            .iconBox {
+                border-radius: 10px;
+                border: 1px solid $clr_secondary-12;
+                background: $clr_secondary-08;
+                padding: 1.2rem;
+
+                i {
+                    font-size: 2rem;
+                    color: $clr_primary-45;
+                }
+            }
+
+            h4 {
+                color: $clr_white;
+                font-family: $font_family-manrope;
+                font-size: 2rem;
+                font-style: $font_style-normal;
+                font-weight: $font_weight-semibold;
+            }
+
+            p {
+                color: $clr_tertiary-60;
+                font-family: $font_family-manrope;
+                font-size: 1.6rem;
+                font-style: $font_style-normal;
+                font-weight: $font_weight-regular;
+            }
+        }
+    }
+}
+
+/*=======================================
+            Responsive Design Start
+=======================================*/
+
+@media screen and (max-width: 992px) {
+    .section_crossplatform {
+        margin: 0 1.6rem;
+        &-header {
+            h1 {
+                font-size: 2.6rem;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section_crossplatform {
+        margin: 0 1.6rem;
+        &-header {
+            h1 {
+                font-size: 2.4rem;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+/*=======================================
+            crossplatform - End
+=======================================*/
